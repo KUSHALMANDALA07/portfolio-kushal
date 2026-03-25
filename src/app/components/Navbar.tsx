@@ -47,7 +47,7 @@ export function Navbar() {
             onClick={() => scrollToSection('home')}
             className="text-2xl font-bold text-[#4d95ff] hover:text-blue-400 transition-colors"
           >
-            PN
+            MK BDM
           </button>
 
           <div className="hidden md:flex items-center gap-8">

@@ -13,7 +13,7 @@ export function Projects() {
         'Deployed using Vercel'
       ],
       github: 'https://github.com/KUSHALMANDALA07',
-      demo: 'https://kushal.dev'
+      demo: 'https://portfolio-kushal-delta.vercel.app/'
     },
     {
       title: 'E-Commerce Platform',

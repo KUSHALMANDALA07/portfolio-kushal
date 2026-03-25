@@ -14,7 +14,7 @@ import {
   SiExpress, 
   SiMongodb, 
   SiTailwindcss, 
-  SiPostman, 
+  SiBruno, 
   SiGit,
   SiVercel,
   SiNpm
@@ -41,7 +41,7 @@ export function Skills() {
     { name: 'NPM', icon: SiNpm, color: '#CB3837' },
     { name: 'Git', icon: SiGit, color: '#F05032' },
     { name: 'VS Code', icon: FaCode, color: '#007ACC' },
-    { name: 'Postman', icon: SiPostman, color: '#FF6C37' },
+    { name: 'Bruno', icon: SiBruno, color: '#FF6C37' },
     { name: 'Vercel', icon: SiVercel, color: '#ffffff' }
   ];
 

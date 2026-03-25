@@ -109,15 +109,15 @@ export function Projects() {
                     <span className="text-sm">View Code</span>
                   </a>
                   {project.demo && (
-                    <a
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-lg transition-colors duration-300"
-                    >
-                      <ExternalLink className="w-4 h-4" />
-                      <span className="text-sm">Live Demo</span>
-                    </a>
+                    // <a
+                    //   href={project.demo}
+                    //   target="_blank"
+                    //   rel="noopener noreferrer"
+                    //   className="flex items-center gap-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-lg transition-colors duration-300"
+                    // >
+                    //   <ExternalLink className="w-4 h-4" />
+                    //   <span className="text-sm">Live Demo</span>
+                    // </a>
                   )}
                 </div>
               </motion.div>

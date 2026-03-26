@@ -26,16 +26,26 @@ export function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-5xl md:text-7xl font-bold text-white mb-4"
           >
-            MANDALA KUSHAL
+            Mandala kushal
           </motion.h1>
           
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-xl md:text-2xl text-[#4d95ff] mb-8"
+            className="text-xl md:text-2xl text-[#4d95ff] mb-6"
           >
-            Software Engineer | MERN Stack Developer | Backend Specialist
+            Full-Stack | MERN Stack | UI/UX Developer | AI Enthusiast
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 0.8 }}
+            className="text-base md:text-lg text-slate-200 max-w-3xl mb-8"
+          >
+            Second-year BTech student passionate about MERN stack, AI projects, and building real-world applications.
+            Exploring machine learning and actively seeking internship opportunities.
           </motion.p>
 
           <motion.div
@@ -83,6 +93,13 @@ export function Hero() {
             >
               <Linkedin className="w-5 h-5" />
               <span>LinkedIn</span>
+            </a>
+
+            <a
+              href="#contact"
+              className="ml-2 px-7 py-3 rounded-full bg-gradient-to-r from-cyan-400 to-blue-600 text-white font-semibold text-sm hover:opacity-90 transition-opacity duration-300"
+            >
+              Let&apos;s Connect
             </a>
           </motion.div>
 

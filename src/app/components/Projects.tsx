@@ -12,7 +12,7 @@ export function Projects() {
         'Optimized responsiveness',
         'Deployed using Vercel'
       ],
-      github: 'https://github.com/KUSHALMANDALA07',
+      github: 'https://portfolio-kushal-delta.vercel.app/',
       demo: 'https://portfolio-kushal-delta.vercel.app/'
     },
     {
@@ -25,7 +25,7 @@ export function Projects() {
         'Secure authentication using bcrypt and cookies',
         'Optimized search achieving <100ms response time for 500+ products'
       ],
-      github: 'https://github.com/KUSHALMANDALA07'
+      github: 'Vhttps://github.com/KUSHALMANDALA07/ECommerce-Follow-Along.git'
     },
     {
       title: 'PondPulse – Aquaculture Platform',
@@ -108,17 +108,6 @@ export function Projects() {
                     <Github className="w-4 h-4" />
                     <span className="text-sm">View Code</span>
                   </a>
-                  {/* {project.demo && ( */}
-                    {/* <a
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-lg transition-colors duration-300"
-                    >
-                      <ExternalLink className="w-4 h-4" />
-                      <span className="text-sm">Live Demo</span>
-                     </a> */}
-                  {/* )} */}
                 </div>
               </motion.div>
             ))}

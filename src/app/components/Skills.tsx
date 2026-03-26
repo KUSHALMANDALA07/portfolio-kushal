@@ -17,7 +17,12 @@ import {
   SiBruno, 
   SiGit,
   SiVercel,
-  SiNpm
+  SiNpm,
+  SiNextdotjs,
+  SiPostgresql,
+  SiFigma,
+  SiDocker,
+  SiRender
 } from 'react-icons/si';
 import { TbApi } from 'react-icons/tb';
 
@@ -27,14 +32,18 @@ export function Skills() {
     { name: 'CSS3', icon: FaCss3Alt, color: '#1572B6' },
     { name: 'JavaScript', icon: FaJsSquare, color: '#F7DF1E' },
     { name: 'React', icon: FaReact, color: '#61DAFB' },
+    { name: 'Next.js', icon: SiNextdotjs, color: '#000000' },
     { name: 'Tailwind', icon: SiTailwindcss, color: '#06B6D4' },
     { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
     { name: 'Express', icon: SiExpress, color: '#ffffff' },
     { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
+    { name: 'SQL', icon: SiPostgresql, color: '#336791' },
     { name: 'GitHub', icon: FaGithub, color: '#ffffff' },
     { name: 'Java', icon: FaJava, color: '#007396' },
     { name: 'Python', icon: FaPython, color: '#3776AB' },
-    { name: 'REST APIs', icon: TbApi, color: '#FF6C37' }
+    { name: 'REST APIs', icon: TbApi, color: '#FF6C37' },
+    { name: 'Figma', icon: SiFigma, color: '#F24E1E' },
+    { name: 'Docker', icon: SiDocker, color: '#2496ED' }
   ];
 
   const techTools = [
@@ -42,6 +51,8 @@ export function Skills() {
     { name: 'Git', icon: SiGit, color: '#F05032' },
     { name: 'VS Code', icon: FaCode, color: '#007ACC' },
     { name: 'Bruno', icon: SiBruno, color: '#FF6C37' },
+    { name: 'MongoDB Atlas', icon: SiMongodb, color: '#47A248' },
+    { name: 'Render', icon: SiRender, color: '#46E3B7' },
     { name: 'Vercel', icon: SiVercel, color: '#ffffff' }
   ];
 

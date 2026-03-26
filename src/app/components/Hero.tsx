@@ -103,18 +103,6 @@ export function Hero() {
             </a>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.2, duration: 1 }}
-            className="mt-16"
-          >
-            <a href="#about" className="inline-block animate-bounce">
-              <div className="w-6 h-10 border-2 border-white/30 rounded-full p-1">
-                <div className="w-1.5 h-3 bg-white/50 rounded-full mx-auto animate-pulse"></div>
-              </div>
-            </a>
-          </motion.div>
         </motion.div>
       </div>
     </section>

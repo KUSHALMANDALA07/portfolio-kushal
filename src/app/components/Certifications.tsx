@@ -5,11 +5,21 @@ import cert1 from '../../assets/fbf92725e519cd235ad7dc65ca32d358af8641a4.png';
 import cert2 from '../../assets/c2e0d23489a437a8fdf4716feacf8cacdcbaac0d.png';
 import cert3 from '../../assets/7df06a2b20e6fcff793e36907129d23280d8f984.png';
 import cert4 from '../../assets/3d79d96aa4a8b5658be8fb078885908f7c674e4b.png';
+import cert5 from '../../assets/certificate-syntecxhub.png';
 
 export function Certifications() {
   const [selectedCert, setSelectedCert] = useState<number | null>(null);
 
   const certifications = [
+    {
+      title: 'Backend Development Internship',
+      organization: 'SYNTECXHUB',
+      date: 'Feb 2026 - Mar 2026',
+      image: cert5,
+      description: 'Successfully completed the Internship Program at SYNTECXHUB in BACKEND DEVELOPMENT showing active participation with unwavering dedication. Credential ID: SH07BD1774842434489.',
+      tag: 'Internship',
+      verifyLink: 'https://www.syntecxhub.com'
+    },
     {
       title: 'HackMelaa 2026 Participation',
       organization: 'FEBE, Bonam Venkata Chalamayya Engineering College',

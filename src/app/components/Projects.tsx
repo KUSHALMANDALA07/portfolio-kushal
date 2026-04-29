@@ -12,7 +12,7 @@ export function Projects() {
         'Optimized responsiveness',
         'Deployed using Vercel'
       ],
-      github: 'https://portfolio-kushal-delta.vercel.app/',
+      github: 'https://github.com/KUSHALMANDALA07/portfolio-kushal',
       demo: 'https://portfolio-kushal-delta.vercel.app/'
     },
     {
@@ -25,18 +25,20 @@ export function Projects() {
         'Secure authentication using bcrypt and cookies',
         'Optimized search achieving <100ms response time for 500+ products'
       ],
-      github: 'Vhttps://github.com/KUSHALMANDALA07/ECommerce-Follow-Along.git'
+      github: 'https://github.com/KUSHALMANDALA07/ECommerce-Follow-Along.git'
     },
     {
-      title: 'PondPulse – Aquaculture Platform',
-      description: 'Developed a full-stack platform for fish and prawn farmers',
-      technologies: ['MongoDB', 'Express.js', 'React', 'Node.js'],
+      title: 'HR Management Portal',
+      description: 'Developed a comprehensive HR management portal with a premium glassmorphism UI',
+      technologies: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Tailwind CSS'],
       features: [
-        'Product purchase module implementation',
-        'Role-based dashboards',
-        'User-friendly interface for real-world usability'
+        'Real-time check-in/out with location tracking and attendance management',
+        'Leave management with LOP logic and performance tracking',
+        'Role-based access control and administrative dashboards',
+        'Secure authentication and persistent data synchronization'
       ],
-      github: 'https://github.com/KUSHALMANDALA07'
+      github: 'https://github.com/KUSHALMANDALA07/HR-Portal',
+      demo: 'https://hr-portal-ashen.vercel.app/'
     }
   ];
 
@@ -108,6 +110,17 @@ export function Projects() {
                     <Github className="w-4 h-4" />
                     <span className="text-sm">View Code</span>
                   </a>
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg transition-colors duration-300"
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                      <span className="text-sm">Live Demo</span>
+                    </a>
+                  )}
                 </div>
               </motion.div>
             ))}
